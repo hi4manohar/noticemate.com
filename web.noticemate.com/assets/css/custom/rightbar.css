@@ -1,0 +1,55 @@
+.b-more-option {
+  margin: 10px 10px 20px 10px;
+}
+
+.board-p-changes {
+  margin: 10px 0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.pri_div {
+  width: 86%;
+  overflow: hidden;
+}
+
+.pri_chek{
+  padding: 9px 0px;
+  width: 100%;
+  height: auto;
+}
+.pri_div input[type="checkbox"]{
+  width:20px;
+  height: 20px;
+}
+.check_cir{
+  font-size: 26px;
+  cursor:pointer;
+  position:relative;
+}
+.check {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 15px;
+  font-weight: 100;
+  color: #0f0;
+}
+.priv_name{
+  font-size: 13px;
+  color: #ddd;
+  padding-left: 7px;
+  width: 84%;
+  padding-top: 5px;
+}
+.hide-left-bar {
+  color: #DDDDDD;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 21px;
+  z-index: 5;
+  left: 22px;
+  padding: 5px;
+}

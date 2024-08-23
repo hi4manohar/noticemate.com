@@ -1,0 +1,287 @@
+.mCSB_container {
+    margin-right:0px !important;
+}
+
+.middle_containner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color:black;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+  width: 9px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 7px;
+}
+
+.accordion {
+  font-family: Open Sans,sans-serif;
+}
+
+/*
+
+.modal {
+  display: none;
+  position:   fixed;
+  z-index:    9999999;
+  top:        40%;
+  left:       47%;
+  height:     70px;
+  width:      70px;
+  background: #55100D  url('http://img.wtsongs.com/images/static/site/modal-loader.gif') 50% 50% no-repeat;
+  border-radius: 50%;
+}
+*/
+
+.modal {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  top: 40%;
+  left:47%;
+  height: 30px;
+  width: 30px;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loadersmall {
+  border: 3px solid #f3f3f3;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  border-top: 3px solid #555;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.right_modal {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  top: 40%;
+  right: 13%;
+  height: 30px;
+  width: 30px;
+}
+
+.left_modal {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  top: 40%;
+  left: 13%;
+  height: 30px;
+  width: 30px;
+}
+
+.imp {
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-section-title {
+  cursor: default;
+}
+
+.accordion-section-title.active, .accordion-section-title{
+  background-color: inherit;
+  width: 94%;
+}
+.accordion-section-title.active, .accordion-section-title:hover{
+  background-color: inherit;
+}
+
+.hper {
+  width: 100%;
+}
+.m_popup{
+  left: 86px;
+}
+.m_arrow{
+  right:102px;
+}
+.lpg_shadow{
+  box-shadow: none;
+  margin:5px 0px;
+}
+.h_m_bg{
+  background-color: #000;
+}
+
+.accordion-section{
+  position: relative;
+  margin-bottom: 10px;
+  border: 1px solid #8D8D8D;
+  box-shadow: 0px 1px 2px #fff;
+}
+
+.accordion-section-title{
+  padding: 10px 0px;
+  margin: 0px 10% 0px 3%;
+  display: inline-block;
+  border-bottom: 1px solid #8D8D8D;
+}
+#data-content {
+  border: none;
+}
+
+/* Progressbar */
+.progressBar {
+  background: none repeat scroll 0 0 #E0E0E0;
+  left: 0;
+  padding: 3px 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: none;
+}
+.progressBar .bar {
+  background-color: #FF6C67;
+  width: 0%;
+  height: 14px;
+}
+.progressBar .percent {
+  display: inline-block;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 100%;
+}
+
+.mfs {
+  font-size: 14px;
+}
+
+#image_upload_form input[type="file"] {
+    cursor:pointer !important;
+}
+.mce-toolbar-grp {
+  display: none;
+}
+.notce_info {
+  position: relative;
+}
+#showTool {
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  cursor: pointer;
+}
+#load_more {
+  cursor: pointer;
+}
+#load_more span {
+  color: #fff;
+  background-color: #252830;
+  border-radius: 40px;
+}
+.noticepopup {
+  width: 170px;
+}
+.sweet-content {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.image_upload input {
+  display: block;
+}
+.s_n_attach_con {
+  position: relative;
+}
+
+/*
+@image upload bar
+*/
+div#imgUploadBar {
+  left: 143px;
+  top: 17%;
+  width: 27%;
+}
+
+.btn {
+  background: #3e3e3e;
+  border: 0;
+  border-radius: 70px;
+  color: #f6f6f6;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  line-height: 18px;
+  margin: 0;
+  padding: .5em 1.2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.btn-small {
+  font-size: 11px;
+  line-height: 16px;
+  padding: 4px 12px;
+}
+
+button.green:hover, .btn.green:hover, .rboard-btn:hover {
+  background-color: #71c43f;
+  color: #fff;
+}
+
+.btn.green {
+  background-color: #30b55a;
+}
+
+.rboard-btn {
+  background-color: #757679;
+  margin-right: 2%;
+}
+.hovernot:hover{
+  text-decoration: none;
+  cursor: auto;
+}
+.clearfix {
+  clear: both;
+}

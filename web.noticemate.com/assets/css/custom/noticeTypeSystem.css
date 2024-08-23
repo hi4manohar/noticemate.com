@@ -1,0 +1,79 @@
+/* response part css start */
+.s_n_attach_con span:hover{
+  text-decoration: underline;
+}
+.res_notice_wrapper {
+  height: auto;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 5px 0px 5px 13px;
+  margin : 0 auto;
+  width: 94%;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.13);
+}
+.res_notice {
+  padding: 5px 10px;
+  overflow: hidden;
+}
+.res_yes{
+  width: auto;
+  overflow: hidden;
+  margin-right: 3%;
+  cursor: pointer;
+  padding: 3px 0px;
+}
+.yes_checkbox{
+  font-size: 16px;
+  padding-right: 5px;
+}
+.res_yes span{
+  font-size: 12px;
+  color: #000;
+  line-height: 16px;
+}
+i.fa.yes_checkbox.fl_l.fa-check {
+  font-size: 14px;
+}
+.at_rep_note {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 0;
+}
+#prev-attend-reply {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+/* attend details css start */
+.attend_row{
+  background-color: rgba(67, 72, 87, 0.18);
+  display: block;
+  overflow: hidden;
+  padding: 15px 0px 15px 5px;
+  margin: 5px;
+  border-radius: 2px;
+}
+.attend_row span{
+  color: #ccc;
+  font-size: 15px;
+  width: 70%;
+}
+.attend_row p{
+  color: rgb(69, 239, 241);
+  font-size: 15px;
+  font-weight: 600;
+  width: 20%;
+  text-align: center;
+}
+.attend_row a{
+  color: #fff;
+  width: 10%;
+  text-align:center;
+}
+.attend_row a:hover{
+  background-color: #222;
+}
+/* attend details css end */

@@ -1,0 +1,28 @@
+.black {
+	color:black;
+}
+.fl_r {
+	float:right;
+}
+.fl_l {
+	float:left;
+}
+.bold {
+	font-weight: bold;
+	font-size: 13px;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.12px{
+	font-size: 12px;
+}
+.13px{
+	font-size: 12px;
+}
+.14px{
+	font-size: 12px;
+}

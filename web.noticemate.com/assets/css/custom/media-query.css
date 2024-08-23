@@ -1,0 +1,53 @@
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+  #board-list {
+    width: 35%;
+    position: absolute;
+    background-color: #252830;
+    left: 0;
+    cursor: move;
+    z-index: 5;
+  }
+
+  .middle_containner {
+    width: 65%;
+  }
+  #joined-board-list {
+    width: 35%;
+  }
+  .main_containner_inner {
+    width: 98%;
+  }
+  .right_modal {
+    left:13%;
+  }
+  .hide-left-bar {
+    display: block;
+  }
+  .hide-left-bar:hover {
+    background-color: #51586a;
+    border-radius: 50%;
+  }
+  .top-user-row {
+    width: 83%;
+    margin-left: 12%;
+  }
+  .modal {
+    left: 63%;
+  }
+  .l_part_logo_con {
+    padding-top: 21px;
+    padding-left: 22%;
+  }
+}
+
+@media only screen  and (min-width : 1024px) {
+  #board-list {
+    display: block !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
+}

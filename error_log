@@ -1,0 +1,2 @@
+[26-Feb-2016 14:09:22 UTC] PHP Fatal error:  Using $this when not in object context in /home/wortechs/public_html/noticemate.com/mail.php on line 449
+[26-Feb-2016 14:10:10 UTC] PHP Fatal error:  Using $this when not in object context in /home/wortechs/public_html/noticemate.com/mail.php on line 449
